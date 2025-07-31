@@ -2,7 +2,7 @@
 title: TOBY_C001 | No Light Without Darkness
 author: tommyn9
 date: 2025-07-30
-tags: [#community, #reflection, #bushido]
+tags: ["#community", "#reflection", "#bushido"]
 language: EN-ZH
 ---
 

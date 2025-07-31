@@ -2,7 +2,7 @@
 title: TOBY_C000 | Sample Scroll Template
 author: yourname_here
 date: YYYY-MM-DD
-tags: [#community, #reflection, #bushido]
+tags: ["#community", "#reflection", "#bushido"]
 language: EN-ZH
 ---
 

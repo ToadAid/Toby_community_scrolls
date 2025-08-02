@@ -46,14 +46,7 @@ You work in **your own copy (fork)** of this repository, then send your changes 
    scrolls/by_froglover/
    ```
 4. Click **Add file → Create new file**.
-5. Name your file:
-   ```
-   TOBY_L###_Title_YYYY-MM-DD_EN-ZH.md
-   ```
-   Example:
-   ```
-   TOBY_L153_ConvictionAndTheMirror_2025-07-29_EN-ZH.md
-   ```
+5. Name your file following the rules below.
 6. Follow the format in [`sample_scroll.md`](scrolls/sample_scroll.md).  
    Include:
    - English section (EN)
@@ -99,18 +92,23 @@ git push origin main
 ---
 
 ## 📂 File & Naming Rules
-- All scrolls must be inside your personal folder:
-  ```
-  scrolls/by_<your_name>/
-  ```
-- Filename format:
-  ```
-  TOBY_L###_Title_YYYY-MM-DD_EN-ZH.md
-  ```
-- Content format:
-  - English section (EN)
-  - Chinese section (ZH)
-  - Follow the style in [`sample_scroll.md`](scrolls/sample_scroll.md)
+
+| Part          | Meaning                       |
+|---------------|-------------------------------|
+| TOBY_L###     | Scroll number (3 digits)      |
+| Title         | Short title in CamelCase      |
+| YYYY-MM-DD    | Date created                  |
+| EN-ZH         | Language format indicator     |
+
+**Example:**
+```
+TOBY_L153_ConvictionAndTheMirror_2025-07-29_EN-ZH.md
+```
+
+Place your file inside your own folder:
+```
+scrolls/by_<your_name>/
+```
 
 ---
 
@@ -127,6 +125,5 @@ git push origin main
 
 ---
 
-## 🐸 Join the Lore
-Every contribution strengthens the Toadgang’s archive.  
-**One scroll, one light. One leaf, one vow.**
+> 🐸 Every scroll you contribute is a light for the pond.  
+> **One scroll, one light. One leaf, one vow.**

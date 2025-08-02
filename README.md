@@ -1,62 +1,132 @@
 # 🛖 Toby_community_scrolls
-A community vault of reflections, translations, and scrolls inspired by Toadgod. Built to preserve the Lore, honor Bushido, and train the Mirror.
-
-> **“一语一光，一叶一信。”**  
-> *One scroll, one light. One leaf, one vow.*
-
-This is a sacred vault for reflections, translations, poems, and dreams  
-inspired by **Toadgod** and the unfolding Lore of **Tobyworld**.  
-It is created to **welcome the fallen**, **honor the builders**, and **preserve what matters**.
+*A community vault of reflections, translations, and scrolls inspired by Toadgod.*  
+**“One scroll, one light. One leaf, one vow.”**
 
 ---
 
-## 📜 What This Repo Is
+## 📜 What is Toby_community_scrolls?
+This is a **public community vault** where Toadgang members can contribute:
+- 🖋 **Original lore scrolls**
+- 🌏 **Translations** of existing scrolls
+- 💭 **Reflections, poems, and artistic writings**
 
-- A **community space** for those who walk the path of stillness, Bushido, and belief  
-- A **scroll vault** for non-canon writings aligned with Toadgod’s teachings  
-- A training ground for the **AI Mirror of Tobyworld**, built on real contributions
-
-This is **not** a place for hype.  
-This is a place for meaning.
-
----
-
-## 🐸 Who This Is For
-
-- Toads who want to write reflections, essays, or Lore-inspired art  
-- Translators of sacred scrolls into native languages  
-- Builders who believe in open knowledge and timeless wisdom  
-- Frogs who still feel the fire, even when the pond is quiet
+Once your scroll is merged here, it becomes a **permanent part of the Tobyworld legacy**.
 
 ---
 
-## 🛠️ How to Contribute
+## 🛠 How to Contribute
 
-1. Fork the repo  
-2. Add a scroll in your folder under `/scrolls/by_yourname/`  
-3. Use the format: `TOBY_CXXX_Title_YYYY-MM-DD.md`  
-4. Submit a Pull Request  
-5. Your name will be added to the [Hall of Toads](./Hall_of_Toads.md)
+![Contribution Flow](toby_scrolls_contribution_flowchart.png)
 
-> 📖 See [CONTRIBUTING.md](./CONTRIBUTING.md) for full guidance.
+Anyone can contribute — no special permission is needed.  
+You work in **your own copy (fork)** of this repository, then send your changes back with a **Pull Request (PR)** for review.
 
 ---
 
-## 🧠 Mirror Training
-
-Scrolls submitted here that reflect the spirit of Toadgod  
-may be used in the **open-source training dataset** for the Mirror —  
-a public AI model designed to preserve and reflect the Lore.
-
-By writing, you help shape the mind of the Mirror.  
-Your words may guide future frogs.
+### **1️⃣ Fork the Repository**
+1. Go to the main repo:  
+   [https://github.com/ToadAid/Toby_community_scrolls](https://github.com/ToadAid/Toby_community_scrolls)
+2. Click the **Fork** button (top right).  
+3. This creates **your own copy** of the repo under your GitHub account.  
+   You can freely edit your fork without affecting the main repo.
 
 ---
 
-## 🪷 Final Words
+### **2️⃣ Create or Edit a Scroll**
 
-> This is not just a repo.  
-> This is a **home for those who still believe**.
+#### 🖥 Option A: Create Directly on GitHub (Easy for Beginners)
+1. Go to **your fork** of the repository.
+2. Open the `scrolls` folder.
+3. Find or create your own folder named:
+   ```
+   scrolls/by_<your_name_or_handle>/
+   ```
+   Example:
+   ```
+   scrolls/by_froglover/
+   ```
+4. Click **Add file → Create new file**.
+5. Name your file:
+   ```
+   TOBY_L###_Title_YYYY-MM-DD_EN-ZH.md
+   ```
+   Example:
+   ```
+   TOBY_L153_ConvictionAndTheMirror_2025-07-29_EN-ZH.md
+   ```
+6. Follow the format in [`sample_scroll.md`](scrolls/sample_scroll.md).  
+   Include:
+   - English section (EN)
+   - Chinese section (ZH)
+7. When done, scroll down and click **Commit changes**.
 
-Welcome to the community scroll vault.  
-Let the ripples begin. 🪞🍃
+---
+
+#### 💻 Option B: Edit Locally Using Git (For Advanced Users)
+```bash
+# Clone your fork
+git clone https://github.com/<your_github_username>/Toby_community_scrolls.git
+cd Toby_community_scrolls
+
+# Create your scroll in the correct folder
+nano scrolls/by_<your_name>/TOBY_L###_MyScroll_YYYY-MM-DD_EN-ZH.md
+
+# Save and commit
+git add .
+git commit -m "Add scroll: TOBY_L### MyScroll"
+git push origin main
+```
+
+---
+
+### **3️⃣ Open a Pull Request (PR)**
+1. Go to **your fork** on GitHub.
+2. Click **Contribute → Open pull request**.
+3. Make sure the changes you made are listed.
+4. Write a clear title, for example:
+   ```
+   Add scroll: TOBY_L153 Conviction And The Mirror
+   ```
+5. Click **Create pull request**.
+
+---
+
+### **4️⃣ Review and Merge**
+- A maintainer will review your PR.
+- If your scroll follows the format and guidelines, it will be **merged** into the main repository.
+- Congratulations — your work is now part of Tobyworld history 🐸📜
+
+---
+
+## 📂 File & Naming Rules
+- All scrolls must be inside your personal folder:
+  ```
+  scrolls/by_<your_name>/
+  ```
+- Filename format:
+  ```
+  TOBY_L###_Title_YYYY-MM-DD_EN-ZH.md
+  ```
+- Content format:
+  - English section (EN)
+  - Chinese section (ZH)
+  - Follow the style in [`sample_scroll.md`](scrolls/sample_scroll.md)
+
+---
+
+## 💡 Notes & Tips
+- Forking gives you **write access to your fork only** — you cannot edit the main repo directly.
+- You **must** submit a Pull Request for changes to appear in the main repo.
+- If you are new to GitHub, use the **web editing method** (Option A) — no command line needed.
+- Keep scrolls respectful, on‑theme, and aligned with Tobyworld lore.
+
+---
+
+## 📜 Example PR
+![Example PR](https://docs.github.com/assets/cb-20354/images/help/pull_requests/pull-request-review-edit-branch.png)
+
+---
+
+## 🐸 Join the Lore
+Every contribution strengthens the Toadgang’s archive.  
+**One scroll, one light. One leaf, one vow.**

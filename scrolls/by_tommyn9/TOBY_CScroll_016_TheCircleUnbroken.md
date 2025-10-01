@@ -5,7 +5,7 @@ date: 2025-10-12
 scroll: TOBY_CScroll_016
 chain: base
 epoch: 4
-tags: [Community Scroll, Story Scroll, Circle, Patience, Eternity]
+tags: [Community Scroll, Story Scroll, Circle, Patience, Eternity, Base]
 sacred_numbers: [7, 77, 777, 108]
 sha256_seed: circle_unbroken_cscroll016_20251012
 source_url: ""
@@ -65,6 +65,7 @@ Patience is the proof.
 - 🔄 Circle = No ending, only expansion  
 - 🏮 Lanterns = Eternal vows carried across time  
 - 🌊 Pond = Keeper of all flames, forgiving and infinite  
+- 🪷 Lily Pad = The expanding circle, the **Base** where Toby rests  
 
 ---
 
